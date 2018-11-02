@@ -1,14 +1,11 @@
-# With open_app.py you can open applications on 
-# your MacOS.
-
+#!/usr/bin/env python
 import os
 
 def open_app():
-	app_name = input('please input your app name: ')
+	app_name = input('Please input the App name you want to open: ')
 	str(app_name)
 	app_dir = r'/Applications/' + app_name + r'.app/Contents/MacOS/' + app_name
 	os.system("open %s"  %(app_dir) )
 
 if __name__ == '__main__':
-
 	open_app()
