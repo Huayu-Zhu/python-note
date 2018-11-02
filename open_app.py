@@ -1,3 +1,6 @@
+# With open_app.py you can open applications on 
+# your MacOS.
+
 import os
 
 def open_app():
